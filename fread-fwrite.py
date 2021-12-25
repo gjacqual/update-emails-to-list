@@ -1,11 +1,6 @@
 # The code of the email_gen function was originally provided in the task
 def email_gen(list_of_names):
-    emails = []
-    for i in list_of_names:
-        letter = 1
-        while i[1] + '.' + i[0][0:letter] + '@company.io' in emails:
-            letter+=1
-        emails.append(i[1] + '.' + i[0][0:letter] + '@company.io')
+    ...
     return emails
 
 # Below is my task implementation code
